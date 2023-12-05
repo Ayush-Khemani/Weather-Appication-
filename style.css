@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 1.2rem;
+}
+
+.logo strong {
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+.search-bar {
+    margin-right: 2rem;
+    gap: 8px;
+    height: 32px;
+}
+
+#search-input {
+    height: 100%;
+    width: 230px;
+    padding-inline: 10px;
+    border: 1px solid hsla(217, 100%, 50%, 1);
+    border-radius: 10px;
+}
+
+#Search-button {
+    padding: 6px;
+    font-family: sans-serif;
+    width: 70px;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container {
+    width: 650px;
+    padding-block: 30px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+main {
+    margin-top: 120px;
+}
+
+.card {
+    padding-block: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    /* border: solid black 1px; */
+    border: 1px solid hsla(221, 59%, 75%, 1);
+    border-radius: 18px;
+    background: hsla(221, 59%, 75%, 1);
+
+    background: linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(216, 40%, 58%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(216, 40%, 58%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(216, 40%, 58%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BB2E5", endColorstr="#698CBF", GradientType=1 );
+}
+
+#city-name{
+    font-size: xx-large;
+    color: black
+}
+.card-header {
+    width: 100%;
+    flex-direction: column;
+}
+
+.card-details {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#box-1,
+#box-2,
+#box-3 {
+
+    padding-inline: 15px;
+    width: 29%;
+    line-height: 35px;
+    font-size: small;
+    text-transform: uppercase;
+    /* border: solid black 1px; */
+    border-radius: 18px;
+    overflow: hidden;
+    color: aliceblue;
+    background: hsla(208, 33%, 21%, 1);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+background: linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243748", endColorstr="#4B749F", GradientType=1 );
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}

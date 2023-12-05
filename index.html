@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="flex">
+            <div class="logo">
+                <Strong>Weather.com</Strong>
+            </div>
+
+            <div class="search-bar flex">
+                <input type="text" placeholder="eg: Dubai" id="search-input">
+                <button type="button" id="Search-button">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wheather-display container flex" id="wheather-display">
+            <div class="card flex" id="card">
+
+                <div class="card-header flex">
+                    <h2 id="city-name"></h2>
+                    <Strong id="city-temp"></Strong>
+                </div>
+
+                <div class="card-details flex container">
+                    <ul id="box-1">
+                        <li id="Feels-Like">Feels-Like:</li>
+                        <li id="Humidity">Humidity:</li>
+                        <li id="Wind-Speed">Wind-Speed:</li>
+                    </ul>
+
+                    <ul id="box-2">
+                        <li id="max-temp">max-temp:</li>
+                        <li id="min-temp">min-temp:</li>
+                        <li id="wind-degree">wind-degrees:</li>
+                    </ul>
+
+                    <ul id="box-3">
+                        <li id="sunset">sunset:</li>
+                        <li id="sunrise">sunrise:</li>
+                        <li id="cloud_pct">cloud_pct:</li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
